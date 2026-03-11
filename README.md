@@ -1,4 +1,4 @@
-# Ex. No.  - SIMULATION ANALYSIS ON FOUR BAR CHAIN MECHANISM
+# Ex. No.1 - SIMULATION ANALYSIS ON FOUR BAR CHAIN MECHANISM
 
 ## DATE: 11/03/26
 
@@ -20,30 +20,59 @@
 ###  ●	Geometry instruments.
 
 ## PROCEDURE:
-###   1. Draw a horizontal line AD of length 120 mm. 
-###   2. At A, Draw a line AB of length 30 mm at an angle of 600 
-###   3. With B as centre, BC = AD = 120mm draw an arc 
-###   4. With D as centre, CD = 60 mm draw another arc 
-###   5. Join BC and DC 
 
 ![image](https://github.com/Sellakumar1987/Ex.-No.-1.-SIMULATION-ANALYSIS-ON-FOUR-BAR-CHAIN-MECHANISM/assets/113594316/a99fb530-e8df-49bf-9b2c-d537ff992534)
 
-###   This value of VBA is used to decide the scale for the velocity diagram 
-###   Let us construct the velocity diagram taking a scale: 
-###   0.3141 m/s = 60 mm (say) 
-###   1. The fixed link AD, appears as a point in the velocity diagram 
-###   2. From a, draw ab = 60mm, perpendicular to AB in configuration diagram and in the direction of velocity (downward direction) 
-###   3. From b, draw vector bc perpendicular to BC
-###   4. From (a,d), draw vector cd perpendicular to CD. This will intersect the previous vector at c.  
+ ## PROCEDURE:
+
+1. Draw a horizontal line **AD = 120 mm** to represent the fixed link of the four bar chain mechanism.
+
+2. From point **A**, draw the crank **AB = 30 mm** making an angle of **60° with AD**.
+
+3. With **B as centre** and **radius 120 mm**, draw an arc representing the link **BC**.
+
+4. With **D as centre** and **radius 60 mm**, draw another arc representing the link **CD**.
+
+5. Mark the **intersection of the two arcs as point C** and join **BC** and **CD** to complete the configuration diagram of the four bar chain.
+
+6. Calculate the **angular velocity of crank AB** using the formula  
+   **ωAB = (2πN) / 60**, where **N = 100 rpm**.
+
+7. Determine the **linear velocity of point B** using the relation  
+   **VB = rAB × ωAB**.
+
+8. Choose a suitable **scale for the velocity diagram** (for example: **0.314 m/s = 60 mm**).
+
+9. In the velocity diagram, represent the **fixed link AD as a single point (a,d)** since its velocity is zero.
+
+10. From point **a**, draw vector **ab** perpendicular to **AB** in the configuration diagram representing the velocity of point **B**.
+
+11. From point **b**, draw vector **bc** perpendicular to **BC**.
+
+12. From point **(a,d)** draw vector **cd** perpendicular to **CD** to intersect the previous line at **c**.
+
+13. Measure the length **cd** from the velocity diagram.
+
+14. Using the selected scale, calculate the **velocity of point C (VC)**.
+
+15. Finally determine the **angular velocity of link CD** using the relation  
+   **v = rω**.
+
+16. Model the mechanism in **Mech Analyzer software**, input the link dimensions and crank speed.
+
+17. Run the simulation and observe the **displacement and velocity analysis** of the four bar chain mechanism.
+
+
 
 ![image](https://github.com/Sellakumar1987/Ex.-No.-1.-SIMULATION-ANALYSIS-ON-FOUR-BAR-CHAIN-MECHANISM/assets/113594316/76094ae8-a8af-48f3-b2c4-472ab800cc8e)
 
 ![image](https://github.com/Sellakumar1987/Ex.-No.-1.-SIMULATION-ANALYSIS-ON-FOUR-BAR-CHAIN-MECHANISM/assets/113594316/cb44fabe-6e16-4550-a2ec-4ee0f4cb6774)
 
-###   1. First measure cd from velocity diagram  
-###   2. Now, Calculate VCd using the scale of the diagram 
-###   3. Finally, calculate ωcd from the relation v = rω 
-###   Thus, link CD revolves with ωcd = 4 rad/s (clockwise about D) 
+
+
+
+
+  
 
 ![image](https://github.com/Sellakumar1987/Ex.-No.-1.-SIMULATION-ANALYSIS-ON-FOUR-BAR-CHAIN-MECHANISM/assets/113594316/97627fa4-0d38-412c-8745-082bd7b85299)
 
